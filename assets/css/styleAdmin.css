@@ -1,0 +1,120 @@
+/*menghapus css bawaan semua fitur*/
+*{
+	margin: 0;
+	padding : 0;
+	outline : 0;
+	
+}
+body {
+	background-image: url('../icon/bg.jpg');
+	height: 1000px auto;
+}
+/*styling div pada halaman master member*/
+.container {
+	padding:45px;
+	box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+	background-color: white;
+	margin : 10px auto;
+	width : 1150px;	
+}
+
+/*styling modal untuk masukkan kode admin*/
+.containerKode{
+	padding:30px;
+	box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+	background-color: white;
+	margin : 10px auto;
+	margin-top:90px;
+	width : 400px;	
+}
+
+/*styling judul di form untuk memasukkan kode admin*/
+form h2{
+	border-bottom: 2px solid black;
+	text-align:center;
+}
+
+/*styling juduh halaman master member*/
+h2{
+	text-align: center;
+}
+
+/*styling tabel di halaman master member*/
+table{
+	margin:0 auto;
+	border:1px white;
+}
+
+/*styling tabel bagian head dan body pada master member/
+thead, tbody{
+	border: 1px solid black;
+}
+
+/*styling seluruh hyperlink*/
+a {
+	color : black;
+	text-decoration:none;
+	margin-top: auto;
+}
+
+/*menambahkan padding pada kolom tabel body master meber*/
+td{
+	padding:20px;
+}
+
+/*menambahkan padding dan background pada tabel header master member*/
+th{
+	padding:5px;
+	background-color: grey;
+}
+
+/*pada tabel body terdapat kolom yang isinya img, disini adalah pengaturan imgnya atau gambarnya*/
+tbody td img{
+	position:relative;
+	border : 1px solid black;
+	border-radius: 50%;
+	margin: 0 auto;
+	width : 100px;
+	height : 100px;
+}
+
+/**/
+button .yes{
+	padding:10px;
+	width: 200px;
+	background-color: green;
+}
+button .cencel{
+	padding:10px;
+	width: 200px;
+	background-color: red;
+}
+
+/*styling inputan tempat memasukkan kode admin di modal kodeAdmin*/
+input{
+	width: 300px;
+	padding : 8px 10px;
+	margin-bottom: 15px;
+	margin-left: 40px ;
+	border: none;
+	background-color: transparent;
+	border: 2px solid grey;
+	border-radius: 20px;
+	color:black;
+	font-size :20px;
+}
+
+/*styling saat field input dipencet maka warna bordernya akan berubah*/
+input:hover{
+	border-color: #a0a0a0 #b9b9b9 #b9b9b9 #b9b9b9;
+}
+
+/*styling saat field input dipfokuskan maka warna bordernya akan berubah*/
+input:focus{
+	border-color:#4d90fe;
+}
+
+
+
+
+

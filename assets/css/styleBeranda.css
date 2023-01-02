@@ -1,0 +1,613 @@
+/*menghapus css bawaan seluruh fitur*/
+*{
+	margin: 0;
+	padding : 0;
+	outline : 0;
+	
+}
+/*menambahkan backgroud pada body*/
+body {
+	background-image: url('../icon/bg.jpg');
+	height: 1000px auto;
+}
+
+/*styling homepage*/
+.homepage{
+	padding:0;
+	background-image: url('../icon/bghome.jpg');
+	background-size:100% 100%;
+	width:100%;
+	height:100%;
+}
+
+/*styling pada text foodie*/
+.textFodie{
+	margin-top: 40px;
+	margin-left: 100px;
+	font-family: Matura MT Script Capitals;
+	font-size: 30px;
+	float:left;
+	color: white;
+	font-size: 40px;
+	
+}
+
+/*styling button login */
+.buttonHome {
+	margin-top: 40px;
+	margin-right: 120px;
+	padding:10px;
+	width: 80px;
+	height: 30px;
+	border-radius:20%;
+	background-color: black;
+	float:right;
+	opacity:0.8;
+	
+	
+}
+
+/*styling tulisan "login" di button login*/
+.buttonHome a p{
+	padding-top:6px;
+	color:white;
+	text-align: center;
+	font-family:Cooper Black;
+	
+}
+
+/*styling di div contentHome*/
+.contentHome{
+	width: 1000px;
+	height: 200px;
+	background-color: white;
+	opacity: 0.5;
+	margin: 0 auto;
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+
+/*styling judul pada content home*/
+.contentHome h1{
+	font-family: Goudy Stout;
+	text-align: center;
+	color: black;
+}
+
+
+/*styling navbar*/
+nav {
+	z-index:999;
+	background : white;
+	padding-bottom:5px;
+	padding-top:5px;
+	padding-left: 30px;
+	padding-right: 30px;
+	text-align : right;
+	position : sticky;
+	top : 0;
+	overflow : auto;
+	margin : 0 auto;
+}
+
+/*styling logo foodie di navbar*/
+.logo{
+	float : left;
+	height : 50px;
+}
+
+/*styling garis vertikal pada postingan*/
+.garis_verikal{
+	background-color : black;
+	float : left;
+	height : 56px;	
+	width: 3px;
+	margin-left:15px;
+}
+
+/*styling gambar tulisan foodie di navbar*/
+.foodie{
+	float : left;
+	height : 50px;
+	width : auto;
+}
+
+/*styling tombol edit profil dan logout*/
+.nav{
+	float : right;
+	height : 35px;
+	width : 35px;
+	border-radius:50px;
+	margin-top: 10px;
+}
+
+/*memberikan padding atau ruang dalam seluruh tabel*/
+table {
+	padding:20px;
+}
+
+/*styling div yang digunakan di beranda*/
+.container {
+	padding:20px;
+	box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+	background-color: white;
+	margin : 10px auto;
+	width : 1200px;	
+}
+.container2 {
+	padding:20px;
+	padding-top: 10px;
+	border-radius: 20px;
+	background-color: white;
+	margin : 0 auto;
+	width : 600px;	
+}
+
+/*styling div yang digunakan di halaman search*/
+.containerSearch{
+	padding:5px;
+	background-color: white;
+	margin : 0 auto;
+	width : 1200px;
+}
+
+/*styling foto profil yang ada di beranda dan profil utama dan di edit profil*/
+.fotoProfil {
+	position:relative;
+	border : 1px solid black;
+	border-radius: 50%;
+	margin: 0 auto;
+	width : 225px;
+	height : 225px;
+}
+
+/*styling form search di navbar*/
+form .cari{
+	float:left;
+	width: auto;
+	margin : 50px auto;
+}
+
+/*styling inputan search*/
+.search {
+	border: none;
+    height: 30px;
+    border:1px solid #eaeaea;
+    outline:none;
+	float:left;
+	padding:8px 15px;
+	width: 338px;
+	margin-left:300px;
+	margin-top: 10px;
+	background-color: var(--search-box-bg, white);
+    border-radius: 20px;
+    outline: none;
+    position: relative;
+	box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+	
+}
+
+/*ketika field inputan di klik maka warna bordernya akan berubah*/
+.search:hover{
+	border-color: #a0a0a0 #b9b9b9 #b9b9b9 #b9b9b9;
+}
+
+/*ketika cursor difokuskan ke field inputan maka warna colornya akan berubah*/
+.search:focus{
+	border-color:#4d90fe;
+}
+
+/*styling button search*/
+.button{
+	border:none;
+	height : 20px;
+	width: 20px;
+	margin-top: 15px;
+	right:490px;
+	float:left;
+	background-color:white;
+
+}
+
+/*styling img untuk icon pada button search*/
+#button {
+	bottom:5px;
+	left:-42px;
+	float:left;
+	height:30px;
+	position : relative;
+	padding : 8px 13px;
+	border : 1px solid black;
+	color : black;
+	border-radius: 50px;
+	outline: none;
+    border: 1px  grey;
+	height : 15px;
+	width: 15px;		
+}
+
+/*styling jika icon button search di klik*/
+#button:hover{
+
+    background: #f8f8f8;
+    border: 1px solid #c6c6c6;
+    box-shadow: 0 1px 1px rgba(0,0,0,0.1);
+    color: #222;
+}
+
+/*styling tempat posting yang ada di beranda*/
+.postBeranda {
+	padding:8px 15px;
+	box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+	width: 900px;
+	height: 190px;
+	border:1px solid #eaeaea;
+	
+}
+
+/*ketika inputan posting di beranda diklik maka warna bordernya akan berubah*/
+.postBeranda:hover{
+	border-color: #a0a0a0 #b9b9b9 #b9b9b9 #b9b9b9;
+}
+/*ketika inputan posting di beranda difokuskan maka warna bordernya akan berubah*/
+.postBeranda:focus{
+	border-color:#4d90fe;
+}
+
+/*styling tempat posting yang ada di profil*/
+.postProfil {
+	padding:8px 15px;
+	box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+	border:1px splod black;
+	width: 1120px;
+	height: 190px;
+	border:1px solid #eaeaea;
+}
+
+/*ketika inputan posting di provil diklik maka warna bordernya akan berubah*/
+.postProfil:hover{
+
+	background: #f8f8f8;
+}
+
+/*ketika inputan posting di provil difokuskan maka warna bordernya akan berubah*/
+.postProfil:focus{
+	
+	border-color: #4d90fe;
+}
+
+/*styling seluruh button*/
+button{
+	display:inline-block;
+	height:50px;
+	padding:0;
+	vertical-align:top;
+
+	
+}
+
+/*styling button tempat upload gambar*/
+#upload{
+	float:left;
+	margin-left:-90px;
+}
+
+/*styling button kirim postingan*/
+#posting{
+	border:none;
+	height : 30px;
+	width: 30px;
+	right:490px;
+	float:left;
+	background-color:white;
+}
+
+/*styling icon kirim postingan*/
+#iconkirim {
+
+	position : relative;
+	float : left;
+	right:-2px;
+	height : 28px;
+	bottom:0px;
+	
+}
+
+/*saat cursor diarahkan ke icon kirim posting maka icon akan menambahkan border*/
+#iconkirim:hover{
+	border:1px solid grey;
+}
+
+
+
+/*styling hyperlink*/
+a {
+	color : black;
+	text-decoration:none;
+	margin-top: auto;
+}
+
+/*styling*/
+.imgmember {
+	float : left;
+	border-radius:50%;
+	height : 50px;
+	width : 50px;
+}
+
+/*styling tempat postingan ditampilkan*/
+.viewPosting {
+	float : left;
+	
+	width : 650px;
+	background-color :#6B8E23;
+}
+
+/*styling pada h3*/
+h3{
+	margin-top: 15px; 
+	margin-left: 80px;
+}
+
+/*styling pada hyperlink*/
+a {
+	color : black;
+	text-decoration:none;
+	margin-top: auto;
+}
+
+/*styling pada fieldset di halaman edit profil*/
+fieldset {
+	border : 2px solid black;
+}
+
+/*styling icon edit foto*/
+#editfoto{
+	position : relative;
+	background-color: rgba(0.7,0.7,0.7,0.5);
+	border-radius: 50%;
+	float : left;
+	left:260px;
+	bottom:60px;
+	height : 50px;
+	width:50px;
+ }
+
+/*ketika cusrsor diletakkan di icon edit foto maka warna backgroundnya akan berubah*/
+ #editfoto:hover{
+	 background-color: #a0a0a0 ;
+ }
+
+/*styling pada inputan edit profil, di inputan type text dan password */
+input[type = text], input[type = password]{
+	border: none;
+	margin-left:60px;
+	padding : 20px;
+	width : 80%;
+	color : black;
+	font-family: Time New Romman;
+	
+}
+
+/*styling pada select jenis kelamin dan inputan tanggal lahir*/
+.edit select, input[type = date]{
+	float: left;
+	margin-left:90px;
+}
+
+
+.edit input:hoover{
+	border: 1px black;
+}
+
+/*styling button edit profil*/
+.buttonedit:hover{
+	
+	background: #f8f8f8;
+   
+    box-shadow: 0 1px 1px rgba(0,0,0,0.1);
+    color: #222;
+	
+}
+
+
+label{
+	float:left;
+	margin-left: 90px;
+	font-size: 20px;
+}
+
+form .posting{
+	float:left;
+	width: auto;
+	margin : 50px auto;
+}
+
+.data th{
+	text-align: left;
+}
+.data {
+	position:relative;
+	margin-left:10px;
+	float:left;
+
+}
+
+.add{
+	border-radius:10px;
+	font-family: Times New Romman;
+	padding:5px;
+	
+	
+}
+.add:hover{
+	background-color: skyblue;
+	
+}
+
+.datamember th{
+	background-color: blue;
+}
+
+.editprofil{
+	position : relative;
+	float : left;
+	left:260px;
+	bottom:60px;
+	height : 50px;
+	width:50px;
+}
+
+.buttoneditprofil{
+	padding:10px;
+	width:120px;
+	border-radius:10px;
+
+	
+}
+.buttoneditprofil:hover{
+	background-color: skyblue;
+	border-radius:10px;
+}
+
+.buttondaftarteman{
+	padding:10px;
+	width:120px;
+	border-radius:10px;
+	margin-left:10px;
+}
+.buttondaftarteman:hover{
+	background-color: skyblue;
+	border-radius:10px;
+}
+
+
+
+/* defaults */
+/* =============================================== */
+
+
+
+
+#modal {
+
+  font-size: 62.5%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Open Sans', sans-serif;
+
+  min-height: 100vh;
+  background: linear-gradient(to bottom, hsl(236, 50%, 98%), hsl(236, 50%, 94%));
+}
+
+
+.modal-container {
+  font-size: 62.5%;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 10;
+
+  display: none;
+  justify-content: center;
+  align-items: center;
+
+  width: 100%;
+  height: 100%;
+
+  background: hsla(0, 0%, 40%, .6);
+}
+
+/* using :target */
+.modal-container:target {
+  display: flex;
+}
+
+.modal {
+  width: 40rem;
+  padding: 4rem 2rem;
+  border-radius: .8rem;
+  
+  color: black;
+  background: white;
+  box-shadow: .4rem .4rem 2.4rem .2rem hsla(236, 50%, 50%, 0.3);
+  position: relative;
+
+  overflow: hidden;
+}
+
+
+
+.modal__title {
+  font-size: 30px;
+  text-align: center;
+  
+  
+}
+
+
+.modal__btnTidak, .modal__btnYa {
+  padding: 1rem 1.6rem;
+  border: 1px solid black;
+  border-radius: 10px;
+  float:right;
+  color: inherit;
+  background: transparent;
+  font-size: 0.8rem;
+ 
+  letter-spacing: .2rem;
+  transition: .2s;
+  cursor: pointer;
+}
+.modal__btnTidak{
+	margin-left:20px;
+}
+.modal__btnTidak:hover{
+	background-color: red;
+	transform: translateY(-.2rem);
+}
+.modal__btnYa:hover {
+  background-color: green;
+  transform: translateY(-.2rem);
+}
+
+
+
+
+.link-2 {
+  width: 4rem;
+  height: 4rem;
+  border: 1px solid grey;
+  border-radius: 100rem;
+
+  color: inherit;
+  font-size: 2.2rem;
+
+  position: absolute;
+  top: 2rem;
+  right: 2rem;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  transition: .2s;
+}
+
+.link-2::before {
+  content: '×';
+
+  transform: translateY(-.1rem);
+}
+
+.link-2:hover,
+.link-2:focus {
+  border-color: hsla(0, 0%, 100%, .6);
+  transform: translateY(-.2rem);
+}
